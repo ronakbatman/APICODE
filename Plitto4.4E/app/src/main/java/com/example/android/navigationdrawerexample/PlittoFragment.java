@@ -26,6 +26,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 
@@ -40,6 +41,9 @@ public class PlittoFragment extends Fragment {
     private String url = "http://www.plitto.com/api/getSometest";
     TextView text;
     ListView listview;
+    List<String> header;
+    List<RowInfo> content;
+    HashMap<Integer, Integer> map;
 
     public PlittoFragment() {
 
@@ -63,6 +67,10 @@ public class PlittoFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_item_list, container, false);
         text = (TextView)rootView.findViewById(R.id.itemListTitle);
         listview = (ListView)rootView.findViewById(R.id.userlist);
+        header = new ArrayList<String>();
+        content = new ArrayList<RowInfo>();
+        map = new HashMap<Integer, Integer>();
+
         return rootView;
     }
 
@@ -150,41 +158,38 @@ public class PlittoFragment extends Fragment {
             protected void onPostExecute(JSONObject result) {
             Log.v(TAG, "RESULT: " + result);
             //Toast.makeText(getActivity(), "Data Sent! "+result, Toast.LENGTH_LONG).show();
-            text.setText(result.toString());
-            // TODO Take the data results and put them in the list where they can be shown.
+            try {
+                JSONArray userArray = result.getJSONArray("results");
+                Toast.makeText(getActivity(), "Number of users= "+userArray.length(), Toast.LENGTH_LONG).show();
+                for(int i=0;i<userArray.length();i++)
+                {
+                    JSONObject user=(JSONObject)userArray.get(i);
+                    String username = user.getString("username");
+                    content.add(new RowInfo(1,username));
+                    header.add(username);
+                    JSONArray user_lists = (JSONArray)user.getJSONArray("lists");
+                    for(int j=0;j<user_lists.length();j++)
+                    {
+                        JSONObject user_desc=(JSONObject)user_lists.get(j);
+                        content.add(new RowInfo(2,user_desc.getString("listname")));
+                        header.add(user_desc.getString("listname"));
+                        JSONArray final_list = (JSONArray)user_desc.getJSONArray("items");
+                        for(int k=0;k<final_list.length();k++)
+                        {
+                            JSONObject final_elem = (JSONObject)final_list.get(k);
+                            header.add(final_elem.getString("thingname"));
+                            content.add(new RowInfo(3,final_elem.getString("thingname"),final_elem.getString("added")));
+                        }
+                    }
 
-            // 1. Concert it into an object?
-
-            /*
-            JSONObject obj = null;
-            JSONArray getSomeResults = null;
-            if (obj != null) try {
-                getSomeResults = obj.getJSONArray("results");
-                // BG Create the list
-                List<String> list = new ArrayList<String>();
-
-
-                // BG At this point, we have the items from the results in an object / array, and we need to build up the list.
-                for (int i = 0; i < getSomeResults.length(); i++) {
-                    list.add(getSomeResults.getJSONObject(i).getString("username"));
                 }
-                // BG We can prove that we can get the user information from the call.
-                Log.v(TAG, "First User: " + getSomeResults.getJSONObject(0).getString("username"));
-                Log.v(TAG, "what is the list?: " + list);
-                Log.v(TAG, "raw results: " + getSomeResults); // This is the exact JSON object.
-                Toast.makeText(getActivity(), getSomeResults.getJSONObject(0).getString("username"), Toast.LENGTH_LONG).show();
-                // TODO Update the list view with these results
-                // TODO FAILS HERE - "cannot find symbol method findViewById(int)"
-                //
-                Log.v(TAG, "Find by ID" + getActivity().findViewById(R.id.userlist));
-
-
-            } catch (JSONException e) {
+                SimpleAdapter s =new SimpleAdapter(content,getActivity().getApplicationContext());
+                listview.setAdapter(s);
+            }catch (JSONException e)
+            {
                 e.printStackTrace();
             }
 
-            Log.v(TAG, "Record: " + obj.length());
-            */
 
 
         }

@@ -24,29 +24,36 @@ public final class R {
         public static final int mars=0x7f020006;
         public static final int mercury=0x7f020007;
         public static final int neptune=0x7f020008;
-        public static final int saturn=0x7f020009;
-        public static final int uranus=0x7f02000a;
-        public static final int venus=0x7f02000b;
+        public static final int sample=0x7f020009;
+        public static final int saturn=0x7f02000a;
+        public static final int uranus=0x7f02000b;
+        public static final int venus=0x7f02000c;
     }
     public static final class id {
-        public static final int action_websearch=0x7f070008;
+        public static final int action_websearch=0x7f07000b;
         public static final int content_frame=0x7f070001;
+        public static final int date=0x7f070009;
         public static final int drawer_layout=0x7f070000;
         public static final int gridTitle=0x7f070003;
         public static final int image=0x7f070006;
+        public static final int img=0x7f070007;
         public static final int itemListTitle=0x7f070004;
         public static final int left_drawer=0x7f070002;
-        public static final int rowTextView=0x7f070007;
+        public static final int rowTextView=0x7f07000a;
+        public static final int txt=0x7f070008;
         public static final int userlist=0x7f070005;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int drawer_list_item=0x7f030001;
-        public static final int fragment_ditto_some=0x7f030006;
+        public static final int fragment_ditto_some=0x7f030009;
         public static final int fragment_item_grid=0x7f030002;
         public static final int fragment_item_list=0x7f030003;
         public static final int fragment_planet=0x7f030004;
-        public static final int userrow=0x7f030005;
+        public static final int header=0x7f030005;
+        public static final int main_content=0x7f030006;
+        public static final int subheader=0x7f030007;
+        public static final int userrow=0x7f030008;
     }
     public static final class menu {
         public static final int main=0x7f060000;
