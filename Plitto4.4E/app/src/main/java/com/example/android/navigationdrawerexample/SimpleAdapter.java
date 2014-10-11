@@ -74,9 +74,11 @@ public class SimpleAdapter extends ArrayAdapter<RowInfo> {
             if (type == 2) {
                 TextView tvv = (TextView)v.findViewById(R.id.date);
                 tvv.setText(c.getDate());
+
             }
             txt.setText(c.getName());
-            img.setImageResource(R.drawable.sample);
+            txt.setTextSize(17);
+        img.setImageResource(R.drawable.check_pending);
             return v;
         }
 

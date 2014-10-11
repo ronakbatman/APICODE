@@ -2,144 +2,164 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res" >
+        <source path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res" >
             <file
                 name="mercury"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable/mercury.jpg"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable/mercury.jpg"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="saturn"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable/saturn.jpg"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable/saturn.jpg"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="jupiter"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable/jupiter.jpg"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable/jupiter.jpg"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="uranus"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable/uranus.jpg"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable/uranus.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="sample"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable/sample.jpg"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="neptune"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable/neptune.jpg"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable/neptune.jpg"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="venus"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable/venus.jpg"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable/venus.jpg"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="earth"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable/earth.jpg"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable/earth.jpg"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="mars"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable/mars.jpg"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable/mars.jpg"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="ic_drawer"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-xhdpi/ic_drawer.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-xhdpi/ic_drawer.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="action_search"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-xhdpi/action_search.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-xhdpi/action_search.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="drawer_shadow"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_drawer"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-mdpi/ic_drawer.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-mdpi/ic_drawer.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="action_search"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-mdpi/action_search.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-mdpi/action_search.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="drawer_shadow"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-mdpi/drawer_shadow.9.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-mdpi/drawer_shadow.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_drawer"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-hdpi/ic_drawer.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-hdpi/ic_drawer.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="action_search"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-hdpi/action_search.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-hdpi/action_search.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="drawer_shadow"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-hdpi/drawer_shadow.9.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-hdpi/drawer_shadow.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="userrow"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/layout/userrow.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/layout/userrow.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="drawer_list_item"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/layout/drawer_list_item.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/layout/drawer_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="subheader"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/layout/subheader.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_item_grid"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/layout/fragment_item_grid.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/layout/fragment_item_grid.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_planet"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/layout/fragment_planet.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/layout/fragment_planet.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main_content"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/layout/main_content.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="header"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/layout/header.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_main"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/layout/activity_main.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_item_list"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/layout/fragment_item_list.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/layout/fragment_item_list.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/menu/main.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/values/refs.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/values/refs.xml"
                 qualifiers="" >
                 <item
                     name="fragment_ditto_some"
@@ -148,7 +168,7 @@
                 </item>
             </file>
             <file
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/values/strings.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="hello_blank_fragment" >Hello blank fragment
                 </string>
@@ -220,7 +240,7 @@ Neptune
                 </string>
             </file>
             <file
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/values-large/refs.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/values-large/refs.xml"
                 qualifiers="large-v4" >
                 <item
                     name="fragment_ditto_some"
@@ -230,11 +250,11 @@ Neptune
             </file>
             <file
                 name="ic_launcher"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/values-sw600dp/refs.xml"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/values-sw600dp/refs.xml"
                 qualifiers="sw600dp-v13" >
                 <item
                     name="fragment_ditto_some"
@@ -243,31 +263,16 @@ Neptune
                 </item>
             </file>
             <file
-                name="main_content"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/layout/main_content.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="subheader"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/layout/subheader.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="header"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/layout/header.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="sample"
-                path="/home/batman/projects/codementor/Plitto4.4E/app/src/main/res/drawable/sample.jpg"
+                name="check_pending"
+                path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/main/res/drawable/check_pending.png"
                 qualifiers=""
                 type="drawable" />
         </source>
-        <source path="/home/batman/projects/codementor/Plitto4.4E/app/build/generated/res/rs/debug" />
-        <source path="/home/batman/projects/codementor/Plitto4.4E/app/build/generated/res/generated/debug" />
+        <source path="/home/batman/projects/long/APICODE/Plitto4.4E/app/build/generated/res/rs/debug" />
+        <source path="/home/batman/projects/long/APICODE/Plitto4.4E/app/build/generated/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/batman/projects/codementor/Plitto4.4E/app/src/debug/res" />
+        <source path="/home/batman/projects/long/APICODE/Plitto4.4E/app/src/debug/res" />
     </dataSet>
 
 </merger>

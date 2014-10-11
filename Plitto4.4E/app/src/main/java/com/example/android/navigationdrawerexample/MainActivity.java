@@ -178,25 +178,6 @@ public class MainActivity extends Activity {
     private void selectItem(int position) {
 
         Log.d("Ronak","position === "+position);
-
-        /*
-        if(position < 3) {
-            // Open the "Ditto Some" fragment.
-            Fragment fragment = PlittoFragment.newInstance(position);
-
-            FragmentManager fragmentManager = getFragmentManager();
-            fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
-
-            // update selected item and title, then close the drawer
-            mDrawerList.setItemChecked(position, true);
-            setTitle(mNavTitles[position]);
-            mDrawerLayout.closeDrawer(mDrawerList);
-        }
-
-        // Only use the planet fragment if it's position 1. This is the first step toward migrating this to new fragments.
-        else  {
-          */
-
             // update the main content by replacing fragments
         if(position < 3) {
             Fragment fragment2 = PlittoFragment.newInstance(position);
